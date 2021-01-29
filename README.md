@@ -16,5 +16,5 @@ Depending upon our application, the limitation of 300 transactions per second pe
 
 Depending upon performance impact vs simplicity tradeoff decisions, adding code to handle hot starts and avoid re-initializing this like you might do for a DB connection would be worth considering.
 
-If this was a service we actually wanted to integrate with rather than just a POC, would look into the below as it's likely that claims would have multiple records so performance-wise this would be a good move.
+If this was a service we actually wanted to integrate with rather than just a POC, I would look into the below as it's likely that claims would have multiple records so performance-wise this would be a good move.
 https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_composite_sobjects_collections_upsert.htm
