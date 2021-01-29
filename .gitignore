@@ -1,0 +1,10 @@
+
+exampleSFReceiverFromAPIGateway/exampleSFReceiverFromAPIGateway.zip
+
+exampleSFSender/exampleSFSender.zip
+
+exampleSFReceiverFromAPIGateway/.nyc_output/
+
+exampleSFSender/.nyc_output/
+
+exampleSFReceiverFromAPIGateway/local_config.json

@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "794523df-a291-4b0a-9827-027fd9525979",
+		"name": "LeeGatchellSampleRequest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Call Me",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "GET_API_KEY_FROM_LEE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"body\": {\r\n\t\t\"Name\": \"Testing Claim from Postman\"\r\n\t},\r\n\t\"number\": 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://agwb85p1mg.execute-api.us-east-1.amazonaws.com/prod/sftest",
+					"protocol": "https",
+					"host": [
+						"agwb85p1mg",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"sftest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "sf_sender",
+	"version": "0.1.0",
+	"description": "Lambda to send updates to Salesforce from SQS",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc mocha --reporter spec",
+		"localtest": "node runlocally.js",
+		"debug": "node runlocally.js --inspect localhost:9229"
+	},
+	"keywords": [],
+	"author": "Lee Gatchell",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "2.281.1",
+		"axios": "^0.21.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"eslint": "^7.18.0",
+		"eslint-config-standard": "^16.0.2",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"lambda-local": "^1.7.4",
+		"mocha": "^8.2.1",
+		"nyc": "^15.1.0",
+		"sinon": "^9.2.4"
+	}
+}
